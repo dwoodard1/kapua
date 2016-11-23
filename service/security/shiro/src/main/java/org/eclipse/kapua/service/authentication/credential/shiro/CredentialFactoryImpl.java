@@ -12,6 +12,7 @@
  *******************************************************************************/
 package org.eclipse.kapua.service.authentication.credential.shiro;
 
+import org.eclipse.kapua.locator.KapuaProvider;
 import org.eclipse.kapua.model.id.KapuaId;
 import org.eclipse.kapua.service.authentication.credential.CredentialFactory;
 import org.eclipse.kapua.service.authentication.credential.CredentialType;
@@ -22,6 +23,7 @@ import org.eclipse.kapua.service.authentication.credential.CredentialType;
  * @since 1.0
  * 
  */
+@KapuaProvider
 public class CredentialFactoryImpl implements CredentialFactory
 {
 

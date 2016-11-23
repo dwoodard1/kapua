@@ -28,6 +28,7 @@ import org.eclipse.kapua.commons.util.ArgumentValidator;
 import org.eclipse.kapua.commons.jpa.EntityManager;
 import org.eclipse.kapua.commons.util.KapuaExceptionUtils;
 import org.eclipse.kapua.locator.KapuaLocator;
+import org.eclipse.kapua.locator.KapuaProvider;
 import org.eclipse.kapua.model.id.KapuaId;
 import org.eclipse.kapua.model.query.KapuaQuery;
 import org.eclipse.kapua.service.account.Account;
@@ -44,6 +45,7 @@ import org.eclipse.kapua.service.authorization.permission.PermissionFactory;
  * @since 1.0
  *
  */
+@KapuaProvider
 public class AccountServiceImpl extends AbstractKapuaConfigurableService implements AccountService
 {
     private static final long serialVersionUID = -312489270279852500L;

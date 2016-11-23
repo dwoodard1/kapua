@@ -17,6 +17,7 @@ import java.util.concurrent.atomic.AtomicLong;
 
 import org.eclipse.kapua.KapuaException;
 import org.eclipse.kapua.commons.model.id.KapuaEid;
+import org.eclipse.kapua.locator.KapuaProvider;
 import org.eclipse.kapua.model.id.KapuaId;
 import org.eclipse.kapua.service.generator.id.IdGeneratorService;
 
@@ -27,6 +28,7 @@ import org.eclipse.kapua.service.generator.id.IdGeneratorService;
  * @since 1.0
  *
  */
+@KapuaProvider
 public class IdGeneratorServiceImpl implements IdGeneratorService
 {
     private static AtomicLong seed = new AtomicLong(System.currentTimeMillis());

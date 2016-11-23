@@ -12,6 +12,7 @@
  *******************************************************************************/
 package org.eclipse.kapua.service.authorization.user.role.shiro;
 
+import org.eclipse.kapua.locator.KapuaProvider;
 import org.eclipse.kapua.model.id.KapuaId;
 import org.eclipse.kapua.service.authorization.user.role.UserRolesCreator;
 import org.eclipse.kapua.service.authorization.user.role.UserRolesFactory;
@@ -23,6 +24,7 @@ import org.eclipse.kapua.service.authorization.user.role.UserRolesQuery;
  * @since 1.0
  * 
  */
+@KapuaProvider
 public class UserRolesFactoryImpl implements UserRolesFactory
 {
 

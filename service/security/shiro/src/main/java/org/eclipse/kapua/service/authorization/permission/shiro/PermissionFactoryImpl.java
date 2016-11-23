@@ -17,6 +17,7 @@ import java.util.StringTokenizer;
 
 import org.eclipse.kapua.KapuaException;
 import org.eclipse.kapua.commons.model.id.KapuaEid;
+import org.eclipse.kapua.locator.KapuaProvider;
 import org.eclipse.kapua.model.id.KapuaId;
 import org.eclipse.kapua.service.authorization.permission.Actions;
 import org.eclipse.kapua.service.authorization.permission.Permission;
@@ -32,6 +33,7 @@ import org.eclipse.kapua.service.authorization.shiro.KapuaAuthorizationException
  * @since 1.0
  *
  */
+@KapuaProvider
 public class PermissionFactoryImpl implements PermissionFactory
 {
     @Override

@@ -20,6 +20,7 @@ import org.eclipse.kapua.commons.util.ArgumentValidator;
 import org.eclipse.kapua.commons.jpa.EntityManager;
 import org.eclipse.kapua.commons.util.KapuaExceptionUtils;
 import org.eclipse.kapua.locator.KapuaLocator;
+import org.eclipse.kapua.locator.KapuaProvider;
 import org.eclipse.kapua.model.id.KapuaId;
 import org.eclipse.kapua.model.query.KapuaQuery;
 import org.eclipse.kapua.service.authorization.AuthorizationService;
@@ -39,6 +40,7 @@ import org.eclipse.kapua.service.authorization.user.role.UserRolesService;
  * @since 1.0
  *
  */
+@KapuaProvider
 public class UserRolesServiceImpl implements UserRolesService {
 
     @Override

@@ -35,6 +35,7 @@ import org.eclipse.kapua.KapuaException;
 import org.eclipse.kapua.commons.model.id.KapuaEid;
 import org.eclipse.kapua.commons.security.KapuaSecurityUtils;
 import org.eclipse.kapua.commons.security.KapuaSession;
+import org.eclipse.kapua.locator.KapuaProvider;
 import org.eclipse.kapua.service.KapuaService;
 import org.eclipse.kapua.service.authentication.AccessToken;
 import org.eclipse.kapua.service.authentication.AccessTokenImpl;
@@ -50,6 +51,7 @@ import org.slf4j.MDC;
  * since 1.0
  * 
  */
+@KapuaProvider
 public class AuthenticationServiceShiroImpl implements AuthenticationService, KapuaService
 {
 

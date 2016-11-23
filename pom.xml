@@ -45,6 +45,7 @@
         <slf4j.version>1.7.2</slf4j.version>
         <shiro.version>1.2.3</shiro.version>
         <validation-api.version>1.1.0.Final</validation-api.version>
+        <elasticsearch.version>2.3.4</elasticsearch.version>
         
         <!-- Plugins versions -->
         <maven-compiler-plugin.version>3.5.1</maven-compiler-plugin.version>
@@ -489,6 +490,11 @@
                 <artifactId>slf4j-log4j12</artifactId>
                 <version>${slf4j.version}</version>
             </dependency>
+			<dependency>
+				<groupId>org.elasticsearch</groupId>
+				<artifactId>elasticsearch</artifactId>
+				<version>${elasticsearch.version}</version>
+			</dependency>
         </dependencies>
     </dependencyManagement>
 

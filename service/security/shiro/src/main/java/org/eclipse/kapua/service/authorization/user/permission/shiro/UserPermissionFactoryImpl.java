@@ -12,6 +12,7 @@
  *******************************************************************************/
 package org.eclipse.kapua.service.authorization.user.permission.shiro;
 
+import org.eclipse.kapua.locator.KapuaProvider;
 import org.eclipse.kapua.model.id.KapuaId;
 import org.eclipse.kapua.service.authorization.user.permission.UserPermissionCreator;
 import org.eclipse.kapua.service.authorization.user.permission.UserPermissionFactory;
@@ -23,6 +24,7 @@ import org.eclipse.kapua.service.authorization.user.permission.UserPermissionQue
  * @since 1.0
  * 
  */
+@KapuaProvider
 public class UserPermissionFactoryImpl implements UserPermissionFactory
 {
 
